@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right, green, rgb(30, 134, 30));
+}
+
+.generated-card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 20%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.suit {
+  font-size: 100px;
+}
+
+#button {
+  display: flex;
+  margin: auto;
+  margin-left: 45%;
+}
+
+.top-left {
+  margin-bottom: 100%;
+}
+
+.bottom-right {
+  margin-top: 95%;
+}
+
+.value {
+  font-size: 160px;
+}
